@@ -40,8 +40,8 @@
             src = pkgs.fetchFromGitHub {
               owner = "gridbugs";
               repo = "climate";
-              ref = "0.9.0";
-              rev = "49e24c3f063ba8877d9ed0b332e1b1c5fec41d12";
+              rev = "0.9.0";
+              hash = "sha256-gCC37VikO/f02BhkApzdP6R+GA/SpI29boU+FHOtna0=";
             };
           })
         ];
