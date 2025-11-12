@@ -37,7 +37,7 @@
           (buildDunePackage {
             pname = "climate";
             version = "0.9.0";
-            src = fetchFromGitHub {
+            src = pkgs.fetchFromGitHub {
               owner = "gridbugs";
               repo = "climate";
               ref = "0.9.0";
