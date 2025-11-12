@@ -37,8 +37,9 @@
           (buildDunePackage {
             pname = "climate";
             version = "0.9.0";
-            src = fetchGit {
-              url = "https://github.com/gridbugs/climate";
+            src = fetchFromGitHub {
+              owner = "gridbugs";
+              repo = "climate";
               ref = "0.9.0";
               rev = "49e24c3f063ba8877d9ed0b332e1b1c5fec41d12";
             };
