@@ -41,7 +41,7 @@
               owner = "gridbugs";
               repo = "climate";
               rev = "0.9.0";
-              hash = "sha256-gCC37VikO/f02BhkApzdP6R+GA/SpI29boU+FHOtna0=";
+              hash = "sha256-WRhWNWQ4iTUVpJlp7isJs3+0n/D0gYXTxRcCTJZ1o8U=";
             };
           })
         ];
